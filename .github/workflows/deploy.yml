@@ -2,7 +2,7 @@ name: Deploy Website
 on:
   push:
     branches:
-      -main
+      - main
 permissions:
   contents: read
   pages: write
@@ -11,13 +11,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout Code
-      uses: actions/checkout@v4
-      -name: Setup Pages
-      uses: actions/configure-pages@v4
-      -name: Upload Artifact
-      -uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./Task-3/kevinjohnsongeno@mulearn
-      -name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./Task-3/kevinjohnsongeno@mulearn
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
