@@ -1,0 +1,13 @@
+# CI/CD Assignment Submission
+
+Name: Kevin Johnson Geno  
+muid: kevinjohnsongeno@mulearn
+
+## 🔗 Repository Link  
+https://github.com/kevinjohnsongeno/Shipyard-Foundations
+
+## 🌐 Live Website  
+https://kevinjohnsongeno.github.io/Shipyard-Foundations/
+
+## 🌐 Git Actions Link  
+https://github.com/kevinjohnsongeno/Shipyard-Foundations/actions
